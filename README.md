@@ -1,16 +1,56 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive finance dashboard application built with React and Tailwind CSS. This application helps users track their financial activities, manage transactions, and gain valuable insights into their spending patterns.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://project-atia4.vercel.app/
 
-## React Compiler
+## 📋 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Core Features
+- **Dashboard Overview**: View financial summary with interactive charts
+  - Total Balance, Income, and Expenses summary cards
+  - Balance trend line chart
+  - Spending breakdown pie chart by category
 
-## Expanding the ESLint configuration
+- **Transaction Management**: Full CRUD operations with filtering
+  - Add, edit, and delete transactions (Admin only)
+  - Search by description
+  - Filter by transaction type (Income/Expense) and category
+  - Sort by date or amount
+  - Real-time transaction count updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Role-Based Access Control**: Simulated roles with UI adaptation
+  - **Admin**: Full access - Add, edit, delete transactions, export data
+  - **Viewer**: Read-only access - Can only view transactions
+  - Role switcher in header for demonstration
+
+- **Financial Insights**: Smart analytics and recommendations
+  - Highest spending category
+  - Monthly spending comparison
+  - Average transaction value
+  - Savings rate calculation
+  - Top spending categories with progress bars
+  - Largest expense highlight
+  - Personalized recommendations based on spending patterns
+
+### Additional Features
+- 💾 **Data Persistence**: All data saved to localStorage
+- 📱 **Responsive Design**: Works seamlessly on mobile, tablet, and desktop
+- 📤 **Export Functionality**: Export transactions to CSV (Admin only)
+- 🔔 **Toast Notifications**: User feedback for all actions
+- 🎨 **Clean UI**: Professional dashboard design with smooth animations
+- 🎯 **Empty States**: Graceful handling when no data exists
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React 18
+- **Styling**: Tailwind CSS
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Notifications**: React Hot Toast
+- **State Management**: React Context API
+- **Build Tool**: Vite
+
+## 📁 Project Structure
