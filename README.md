@@ -4,7 +4,7 @@ A modern, responsive finance dashboard application built with React and Tailwind
 
 ## 🚀 Live Demo
 
-https://project-atia4.vercel.app/
+https://modern-finance-analytics.vercel.app
 
 ## 📋 Features
 
